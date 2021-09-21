@@ -22,7 +22,7 @@
                                 </li>
                                 <li class="nav-item">
                                 <div class="nav-link-container">
-                                    <a class="nav-link mt-1 py-0" @click="showShoes" aria-current="page">Obuća</a>
+                                    <a class="nav-link mt-1 py-0" href="#" aria-current="page">Obuća</a>
                                 </div>
                                 </li>
                                 <li class="nav-item">
@@ -36,75 +36,35 @@
                 </nav>
             </div>
             <div class="homepage-body mb-5">
-                <div class="company-info mb-3">
-                    <div class="company-details-container d-flex flex-column me-5">
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <img src="../assets/homepage-description/eco.png" alt="Eco picture"/>
+                <div class="mt-4 d-flex flex-row">
+                    <div class="article-container mt-2">
+                        <div class="article-card d-flex flex-column">
+                            <div class="card-img-top-container">
+                                <img class="card-img-top img-fluid" src="../assets/Shoes/image001.png" alt="Article image">
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title fw-bold mt-3">Naslov</h5>
+                                    <h5 class="card-title fw-bold mt-3">Color</h5>
+                                </div>
+                                <p class="card-text text-wrap">Gdfbgjkdfgdfjkghdfjkgdfkjgdfhgkjdfhgdfjkghhfdhfdhdfdfkjgfdhgkjdfgh</p>
+                                <span>Cena 6500din</span>
+                            </div>
                         </div>
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <span>
-                                Grisport maintains the strictest standards of eco-sustainability
-                                when selecting raw materials. Furthermore, a photovoltaic system
-                                on the factory roof, which covers approximately 15,000 m2,
-                                supplies 70% of the power required for production (which is
-                                about 850,000 kW/h per year).
-                            </span>
-                        </div>
-                    </div>
-                    <div class="company-details-container d-flex flex-column me-5">
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <img src="../assets/homepage-description/italian-company.png" alt="Italian company picture"/>
-                        </div>
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <span>
-                                Grisport has produced a Charter of Human Responsibilities, or
-                                Code of Ethics, to ensure that the company is committed to
-                                respecting the rights, work, and dignity of the people involved
-                                on all levels and in all areas of manufacturing our products.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="company-details-container d-flex flex-column me-5">
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <img src="../assets/homepage-description/responsibility.png" alt="Responsibility picture"/>
-                        </div>
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <span>
-                                Italian company since 1977. Grisport footwears come from the
-                                Italian design, from an important manifacturing chain, from the
-                                attention to details and from a production technologythat in
-                                summary offer comfortable and performing footwear with an
-                                original style.
-                            </span>
+                        <div class="article-card d-flex flex-column">
+                            <div class="card-img-top-container">
+                                <img class="card-img-top img-fluid" src="../assets/Shoes/image001.png" alt="Article image">
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title fw-bold mt-3">Naslov</h5>
+                                    <h5 class="card-title fw-bold mt-3">Color</h5>
+                                </div>
+                                <p class="card-text">gfhgfh</p>
+                                <span>Cena 6500din</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="company-details-container d-flex flex-column">
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <img src="../assets/homepage-description/traceability.png" alt="Traceability picture"/>
-                        </div>
-                        <div class="d-flex flex-row justify-content-center align-items-center">
-                            <span>
-                                Grisport has implemented an effective traceability system that
-                                enables us to trace back every step in the production process
-                                sowe always know which materials were used..
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <p class="description">
-                        O nama<br /><br />
-                        Kompanija GRISHOES, Kraljevo, je ovlašćeni zastupnik kompanije
-                        GRISPORT, Italija, koja je jedna od najvećh i najkvalitetnijih
-                        proizvođača specijalizovane HTZ i military obuće u Evropi. Nadamo se
-                        da će vaša renomirana kompanija prepoznati izuzetan kvalitet i
-                        dizajn ove obuće koja se proizvodi u EU i poseduje sve neophodne
-                        sertifikate što se tiče kvaliteta i bezbednosti, takođe izdate od
-                        ovlašćene agencije za sertifikate MADE IN EU. Zamolili bi Vas da nam
-                        zakažete sastanak na kome bi vam prezentovali uzorke.U prilogu Vam
-                        dostavljamo elektronski katalog sa cenama i uslovima kupovine robe.
-                    </p>
-                    <img src="../assets/homepage-description/banner.jpg" alt="Banner picture" class="banner ms-2"/>
                 </div>
             </div>
         </div>
@@ -137,14 +97,11 @@
 
 <script>
 export default {
-  name: "Homepage",
+  name: "Shoes",
   methods: {
     scroll() {
       const element = document.getElementById('footer');
       element.scrollIntoView({ behavior: 'smooth' });
-    },
-    showShoes(){
-        this.$router.push('shoes');
     }
   }
 };
@@ -274,49 +231,39 @@ footer .copyright {
 .footer-info {
   justify-content: space-between;
 }
-.description {
-  display: flex;
-  font-size: 24px;
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2vw;
 }
-.banner {
-  width: 44.97vw;
-  height: 43vw;
-}
-.company-info {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
+.article-card{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: #5c4209;
 }
 
-.company-details-container {
-  height: auto;
-  width: 100vw;
-  flex-shrink: 2;
-  margin-left: 25px;
-}
-@media screen and (max-width: 1090px) {
-  .company-details-container {
-    margin-left: 0;
-  }
-
-  .banner {
-    width: 0vw;
-    height: 0vw;
-    display: none;
-  }
+.article-card .card-img-top-container{
+    border-radius: 15px 15px 0px 0px;
+    height: 207px;
+    
+    overflow: hidden;
 }
 
-@media screen and (max-width: 840px) {
-  .company-info {
-    flex-direction: column !important;
-  }
-
+.article-card .card-text{
+    height: 72px;
 }
 
-@media screen and (max-width: 1200px) {
-  .company-details-container {
-    width: 100%;
-  }
+.article-card .card-title{
+    font-size: 20px;
+}
+.article-card .card-img-top{
+    object-fit: cover;
+    transition: .5s transform;
+}
+
+.article-card .card-img-top:hover{
+    transform: scale(1.1);
 }
 .homepage-body {
   padding-left: 7.292vw;

@@ -1,14 +1,16 @@
 <template>
-  <Homepage/>
+  <Shoes/>
 </template>
 
 <script>
-import Homepage from './components/Homepage.vue'
+/*import Homepage from './components/Homepage.vue'*/
+import Shoes from './components/Shoes.vue'
 
 export default {
   name: 'App',
   components: {
-    Homepage
+    
+    Shoes
   }
 }
 </script>
