@@ -9,7 +9,6 @@ import Shoes from './components/Shoes.vue'
 export default {
   name: 'App',
   components: {
-    
     Shoes
   }
 }

@@ -3,10 +3,10 @@
         <div id="homepage-content">
             <div class="container-fluid navigation-container px-0">
                 <div class="container-fluid d-none d-lg-block px-0">
-                <img src="../assets/full-logo.png" alt="Brand logo" class="full-logo pt-2"/>
+                  <img src="../assets/full-logo.png" alt="Brand logo" class="full-logo pt-2"/>
                 </div>
                 <div class="container d-lg-none px-0">
-                <img src="../assets/full-logo.png" alt="Brand logo" class="foodly-logo pt-2"/>
+                  <img src="../assets/full-logo.png" alt="Brand logo" class="foodly-logo pt-2"/>
                 </div>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid px-0">

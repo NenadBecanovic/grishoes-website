@@ -36,7 +36,74 @@
                 </nav>
             </div>
             <div class="homepage-body mb-5">
-                <div class="mt-4 ">
+                <div class="mt-4">
+                    <button type="button" class="btn btn-light shadow-none button-style" @click="showSizeTable">
+                        <img src="../assets/arrow16.png" class="button-image" alt="Arrow">
+                        <span> Tabela veličina</span>
+                    </button>
+                    <table class="sizeTable" v-if="showTable">
+                        <tr>
+                            <td>EUR</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>Dužina u MM</td>
+                            <td>234</td>
+                            <td>240</td>
+                            <td>247</td>
+                            <td>254</td>
+                            <td>260</td>
+                            <td>267</td>
+                            <td>273</td>
+                            <td>280</td>
+                            <td>287</td>
+                            <td>293</td>
+                            <td>300</td>
+                            <td>306</td>
+                            <td>313</td>
+                            <td>320</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button type="button" class="btn btn-light shadow-none button-style" @click="showLabels">
+                        <img src="../assets/arrow16.png" alt="Arrow">
+                        <span> Oznake</span>
+                    </button>
+                    <div v-if="showLabel">
+                        <h4>STEPEN ZAŠTITE HTZ OBUĆE</h4>
+                            •   S1 - Pored osnovne zaštite nožnih prstiju pomoću zaštitne kape, S1 osigurava da obuća ima antistatičku zaštitu, otporna je na ulje i apsorbuje energiju u peti.<br>
+                            •   S2 - Ima istu zaštitu kao i S1, plus dodatnu zaštitu koja sprečava prodor vode i absorciju vode u gornjem delu.<br>
+                            •	S3 - Obuhvata iste nivoe zaštite kao i S2, plus zaštitu od probijanja oštrog predmeta odozdo pomoću zaštitnog lista u đonu.<br>
+                        <h4>SKRAĆENICE</h4>
+                        A - Antistatične osobine<br>
+                        E - Apsorber energije u prednjem delu<br>
+                        P - Đon otporan na probijanje<br>
+                        AN - Zaštita zgloba<br>
+                        WRU - Vododbojno gornjište<br>
+                        WR - Vodonepropusna obuća<br>
+                        HRO - Otpornost pri kraćim kontaktima sa toplim površinama<br>
+                        HI - Otpornost pri dužim kontaktima sa toplim površinama<br>
+                        CI - Zaštita od hladnoće<br>
+                        M - Metatarzalna zaštita<br>
+                        FO - Otpornost đona na ugljovodonike<br>
+                        ESD - Otpornost na elektrostatičko pražnjenje<br>
+                        SRA - Protivkliznost đona na keramici po kojoj se nalazi razblaženi deterdžent<br>
+                        SRB - Protivkliznost đona na čeliku na kome se nalazi glikol<br>
+                        SRC - Protivkliznost đona SRA+SRB<br>
+                    </div>
                     <div class="article-container mt-2">
                         <div class="article-card d-flex flex-column">
                           <div class="card-img-top-container">
@@ -45,8 +112,8 @@
                           <div class="card-body">
                               <div class="d-flex justify-content-between">
                                   <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
-                                  <h5 class="card-title fw-bold mt-3">CRNA</h5>
                               </div>
+                              <h7 class="card-title fw-bold mt-3">CRNA</h7>
                               <p class="card-text text-wrap">
                                 CAT: S3 HRO HI SRC <br>
                                 ĐON: 2022 RUBBERUMA+POLIURETAN 
@@ -64,8 +131,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: 2022 GUMA+POLIURETAN 
@@ -83,8 +150,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.17</h5>
-                                    <h5 class="card-title fw-bold mt-3">BRAON</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: 2022 GUMA+POLIURETAN 
@@ -102,8 +169,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.1</h5>
-                                    <h5 class="card-title fw-bold mt-3">TAMNO PLAVA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: 2022 MONO POLIURETAN 
@@ -120,8 +187,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.6</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA/CRVENA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA/CRVENA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: 2022 MONO POLIURETAN 
@@ -138,8 +205,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI WR SRC <br>
                                   ĐON: 2022 GUMA+POLIURETAN 
@@ -157,8 +224,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.30</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: POLIURETAN + GUMA/VIBRAM  
@@ -176,8 +243,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.42</h5>
-                                    <h5 class="card-title fw-bold mt-3">LONTRA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: POLIURETAN + GUMA/VIBRAM 
@@ -195,8 +262,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.30</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: HARD WORK VIBRAM POLIURETAN 
@@ -214,8 +281,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.42</h5>
-                                    <h5 class="card-title fw-bold mt-3">LONTRA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: HARD WORK VIBRAM POLIURETAN 
@@ -233,8 +300,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.12</h5>
-                                    <h5 class="card-title fw-bold mt-3">BRAON</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: HAMMER POLIURETAN DVOSTRUKE GUSTINE + POLIURETAN 
@@ -251,8 +318,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.6</h5>
-                                    <h5 class="card-title fw-bold mt-3">MILITARY</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">MILITARY</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -269,8 +336,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.25</h5>
-                                    <h5 class="card-title fw-bold mt-3">SIVA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1 + P SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -287,8 +354,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.4</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO CI WR HI SRC <br>
                                   ĐON: POLIURETAN + GUMA/VIBRAM 
@@ -305,8 +372,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.8</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO WR HI SRC <br>
                                   ĐON: POLIURETAN + GUMA/VIBRAM 
@@ -323,8 +390,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.26</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -341,8 +408,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.26</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -359,8 +426,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.1</h5>
-                                    <h5 class="card-title fw-bold mt-3">NERO</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -377,8 +444,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.7</h5>
-                                    <h5 class="card-title fw-bold mt-3">ANTHRACITE</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">ANTHRACITE</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1 + P SRC <br>
                                   ĐON: COMPACT MONO PU 
@@ -395,8 +462,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">ALASKA VAR.7</h5>
-                                    <h5 class="card-title fw-bold mt-3">BRAON</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
@@ -413,8 +480,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.10</h5>
-                                    <h5 class="card-title fw-bold mt-3">NERO</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
@@ -431,8 +498,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">ALASKA VAR.7</h5>
-                                    <h5 class="card-title fw-bold mt-3">BRAON</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
@@ -449,8 +516,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.10</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
@@ -467,8 +534,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.1</h5>
-                                    <h5 class="card-title fw-bold mt-3">TAMNO BEŽ</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">TAMNO BEŽ</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
                                   SOLE : 2022 RUBBERUMA+POLIURETAN 
@@ -485,8 +552,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.35</h5>
-                                    <h5 class="card-title fw-bold mt-3">TORBA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">TORBA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P <br>
                                   ĐON: POLIURETAN DVOSTRUKE GUSTINE 
@@ -503,8 +570,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.22</h5>
-                                    <h5 class="card-title fw-bold mt-3">TAMNO PLAVA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
                                   ĐON: COMPACT POLIURETAN + POLIURETAN 
@@ -521,8 +588,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.3</h5>
-                                    <h5 class="card-title fw-bold mt-3">BRAON</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
                                   ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
@@ -539,8 +606,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">ANDROID VAR.4</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P HRO HI SRC <br>
                                   ĐON: POLIURETAN + GUMA 
@@ -557,8 +624,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">ELEMENT VAR.46</h5>
-                                    <h5 class="card-title fw-bold mt-3">SIVA/LIME</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">SIVA/LIME</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P HRO HI SRC <br>
                                   ĐON: POLIURETAN + GUMA 
@@ -575,8 +642,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">POLY VAR.17</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
                                   ĐON: POLIURETAN + GUMA
@@ -593,8 +660,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">POLY VAR.12</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA/BELA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC ESD(CLASS1) <br>
                                   ĐON: POLIURETAN + GUMA + ESD 
@@ -611,8 +678,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">POLY VAR.12</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA/BELA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC ESD(CLASS1)<br>
                                   ĐON: POLIURETAN + GUMA + ESD 
@@ -629,8 +696,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">FIORE VAR.1</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI CI WR SRC <br>
                                   ĐON: RANGER VIBRAM ZAŠTITA 
@@ -647,8 +714,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DAKAR VAR.6</h5>
-                                    <h5 class="card-title fw-bold mt-3">SIVA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI CI WR SRC <br>
                                   ĐON: RANGER VIBRAM ZAŠTITA 
@@ -665,8 +732,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DIGITEX VAR.24</h5>
-                                    <h5 class="card-title fw-bold mt-3">SVETLO PLAVA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">SVETLO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
                                   ĐON: POLIURETAN DVOSTRUKE GUSTINE 
@@ -683,8 +750,8 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <h5 class="card-title fw-bold mt-3">DIGITEX VAR.17</h5>
-                                    <h5 class="card-title fw-bold mt-3">CRNA</h5>
                                 </div>
+                                <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC ESD <br>
                                   ĐON: POLIURETAN DVOSTRUKE GUSTINE 
@@ -699,7 +766,7 @@
             </div>
         </div>
         <footer class="text-white" id="footer">
-            <div class="container p-4 pb-0">
+            <div class="container p-4 pb-0 d-none d-md-block">
                 <section class="footer-info d-flex flex-row mb-4">
                     <div class="d-flex flex-column text">
                         <div class="basic-title">Vlasnik:</div>
@@ -718,8 +785,19 @@
                     </div>
                 </section>
             </div>
+            <div class="container small-info pt-4 d-md-none">
+                <section class="footer-small-info d-flex flex-column mb-4">
+                        <div class="basic-title">Vlasnik:</div>
+                        <span class="mb-2 mt-2"> Bojan Bajagić </span>
+                        <span> Tel: 063-261-381 </span>
+                        <div class="basic-title mt-2">Menadžer prodaje:</div>
+                        <span class="mb-2 mt-2"> Aleksa Boškić </span>
+                        <span> Tel: 062-127-41-12 </span>
+                        <div class="basic-title mt-2">E-mail: grishoeskv@gmail.com</div>
+                </section>
+            </div>
             <div class="text-center copyright">
-                © Grisport d.o.o, Lađevci, Kraljevo
+                © Grishoes d.o.o, Lađevci, Kraljevo
             </div>
         </footer>
     </div>
@@ -728,10 +806,30 @@
 <script>
 export default {
   name: "Shoes",
+  data: function(){
+    return {
+        showTable: false,
+        showLabel: false    
+    }
+  },
   methods: {
     scroll() {
       const element = document.getElementById('footer');
       element.scrollIntoView({ behavior: 'smooth' });
+    },
+    showSizeTable(){
+        if(this.showTable){
+            this.showTable = false;
+        }else{
+            this.showTable = true;
+        }
+    },
+    showLabels(){
+        if(this.showLabel){
+            this.showLabel = false;
+        }else{
+            this.showLabel = true;
+        }
     }
   }
 };
@@ -861,7 +959,13 @@ footer .copyright {
 .footer-info {
   justify-content: space-between;
 }
-
+.footer-small-info {
+  justify-content: flex-start;
+}
+.small-info{
+    margin-left: 7.92vw !important;
+    padding-left: 0px !important;
+}
 .article-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -909,5 +1013,40 @@ footer .copyright {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: lighter;
+}
+.button-style{
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.button-style:hover{
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.button-style:focus{
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.button-style .button-image:focus{
+    rotate: 90;
+}
+
+table,tr,td{
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+td{
+    height: 3vw;
+    width: 3vw;
+}
+.sizeTable{
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
