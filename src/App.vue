@@ -1,19 +1,6 @@
-<template>
-  <Shoes/>
+<template>  
+  <router-view></router-view>
 </template>
-
-<script>
-/*import Homepage from './components/Homepage.vue'*/
-import Shoes from './components/Shoes.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Shoes
-  }
-}
-</script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

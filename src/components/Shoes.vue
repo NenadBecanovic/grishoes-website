@@ -17,7 +17,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                 <div class="nav-link-container">
-                                    <a class="nav-link mt-1 py-0" href="#" aria-current="page">Početna</a>
+                                    <a class="nav-link mt-1 py-0" @click="showHomepage" aria-current="page">Početna</a>
                                 </div>
                                 </li>
                                 <li class="nav-item">
@@ -830,6 +830,9 @@ export default {
         }else{
             this.showLabel = true;
         }
+    },
+    showHomepage(){
+        this.$router.push({name: 'Home'});
     }
   }
 };

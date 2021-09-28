@@ -109,7 +109,7 @@
             </div>
         </div>
         <footer class="text-white" id="footer">
-            <div class="container p-4 pb-0">
+            <div class="container p-4 pb-0 d-none d-md-block">
                 <section class="footer-info d-flex flex-row mb-4">
                     <div class="d-flex flex-column text">
                         <div class="basic-title">Vlasnik:</div>
@@ -128,8 +128,19 @@
                     </div>
                 </section>
             </div>
+            <div class="container small-info pt-4 d-md-none">
+                <section class="footer-small-info d-flex flex-column mb-4">
+                        <div class="basic-title">Vlasnik:</div>
+                        <span class="mb-2 mt-2"> Bojan Bajagić </span>
+                        <span> Tel: 063-261-381 </span>
+                        <div class="basic-title mt-2">Menadžer prodaje:</div>
+                        <span class="mb-2 mt-2"> Aleksa Boškić </span>
+                        <span> Tel: 062-127-41-12 </span>
+                        <div class="basic-title mt-2">E-mail: grishoeskv@gmail.com</div>
+                </section>
+            </div>
             <div class="text-center copyright">
-                © Grisport d.o.o, Lađevci, Kraljevo
+                © Grishoes d.o.o, Lađevci, Kraljevo
             </div>
         </footer>
     </div>
@@ -144,7 +155,7 @@ export default {
       element.scrollIntoView({ behavior: 'smooth' });
     },
     showShoes(){
-        this.$router.push('shoes');
+        this.$router.push('obuca');
     }
   }
 };
@@ -273,6 +284,13 @@ footer .copyright {
 
 .footer-info {
   justify-content: space-between;
+}
+.footer-small-info {
+  justify-content: flex-start;
+}
+.small-info{
+    margin-left: 7.92vw !important;
+    padding-left: 0px !important;
 }
 .description {
   display: flex;
