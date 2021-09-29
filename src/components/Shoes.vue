@@ -985,6 +985,7 @@ footer .copyright {
     border-radius: 15px 15px 0px 0px;
     height: 230px;
     overflow: hidden;
+    background-color: white;
 }
 
 .article-card .card-text{
@@ -995,10 +996,14 @@ footer .copyright {
 .article-card .card-title{
     font-size: 20px;
 }
+/*
 .article-card .card-img-top{
-    /*height: 20vw;*/
     object-fit: cover;
     transition: .5s transform;
+}
+*/
+.article-card .img-fluid{
+    height: 230px;
 }
 
 .article-card .card-img-top:hover{
