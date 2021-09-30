@@ -3,10 +3,10 @@
         <div id="homepage-content">
             <div class="container-fluid navigation-container px-0">
                 <div class="container-fluid d-none d-lg-block px-0">
-                <img src="../assets/full-logo.png" alt="Brand logo" class="full-logo pt-2"/>
+                <img src="../assets/full-logo.png" alt="Brand logo" @click="showHomepage" class="full-logo pt-2"/>
                 </div>
                 <div class="container d-lg-none px-0">
-                <img src="../assets/full-logo.png" alt="Brand logo" class="foodly-logo pt-2"/>
+                <img src="../assets/full-logo.png" alt="Brand logo" @click="showHomepage" class="foodly-logo pt-2"/>
                 </div>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid px-0">
@@ -38,7 +38,8 @@
             <div class="homepage-body mb-5">
                 <div class="mt-4">
                     <button type="button" class="btn btn-light shadow-none button-style" @click="showSizeTable">
-                        <img src="../assets/arrow16.png" class="button-image" alt="Arrow">
+                        <img v-if="!showTable" src="../assets/arrow16.png" class="mb-2" alt="Arrow">
+                        <img v-if="showTable" src="../assets/arrow-down.png" class="mb-2" alt="Arrow">
                         <span> Tabela veličina</span>
                     </button>
                     <table class="sizeTable" v-if="showTable">
@@ -79,14 +80,15 @@
                     </table>
                     <br>
                     <button type="button" class="btn btn-light shadow-none button-style" @click="showLabels">
-                        <img src="../assets/arrow16.png" alt="Arrow">
-                        <span> Oznake</span>
+                        <img v-if="!showLabel" src="../assets/arrow16.png" alt="Arrow" class="mb-2">
+                        <img v-if="showLabel" src="../assets/arrow-down.png" class="mb-2" alt="Arrow">
+                        <span> Stepen zaštite HTZ obuće</span>
                     </button>
-                    <div v-if="showLabel">
+                    <div v-if="showLabel" class="protection">
                         <h4>STEPEN ZAŠTITE HTZ OBUĆE</h4>
                             •   S1 - Pored osnovne zaštite nožnih prstiju pomoću zaštitne kape, S1 osigurava da obuća ima antistatičku zaštitu, otporna je na ulje i apsorbuje energiju u peti.<br>
                             •   S2 - Ima istu zaštitu kao i S1, plus dodatnu zaštitu koja sprečava prodor vode i absorciju vode u gornjem delu.<br>
-                            •	S3 - Obuhvata iste nivoe zaštite kao i S2, plus zaštitu od probijanja oštrog predmeta odozdo pomoću zaštitnog lista u đonu.<br>
+                            •	S3 - Obuhvata iste nivoe zaštite kao i S2, plus zaštitu od probijanja oštrog predmeta odozdo pomoću zaštitnog lista u đonu.<br><br>
                         <h4>SKRAĆENICE</h4>
                         A - Antistatične osobine<br>
                         E - Apsorber energije u prednjem delu<br>
@@ -121,7 +123,7 @@
                                 ČELIČNA KAPA ZA PRSTE
                                 POLIURETANSKI VRH  
                               </p>
-                              <span>Cena: 6,374.00din bez PDV-a</span>
+                              <span>Cena(VP): 6,374.00din bez PDV-a</span>
                           </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -135,12 +137,12 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: 2022 GUMA+POLIURETAN 
+                                  ĐON: 2022 GUMA+POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -154,12 +156,12 @@
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: 2022 GUMA+POLIURETAN 
+                                  ĐON: 2022 GUMA+POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -173,11 +175,11 @@
                                 <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: 2022 MONO POLIURETAN 
+                                  ĐON: 2022 MONO POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena 5,472.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,472.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -191,11 +193,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA/CRVENA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: 2022 MONO POLIURETAN 
+                                  ĐON: 2022 MONO POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena 5,472.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,472.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -209,12 +211,12 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI WR SRC <br>
-                                  ĐON: 2022 GUMA+POLIURETAN 
+                                  ĐON: 2022 GUMA+POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 9,273.00din bez PDV-a</span>
+                                <span>Cena(VP): 9,273.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -228,12 +230,12 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA/VIBRAM  
+                                  ĐON: POLIURETAN + GUMA/VIBRAM<br>  
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -247,12 +249,12 @@
                                 <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA/VIBRAM 
+                                  ĐON: POLIURETAN + GUMA/VIBRAM<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -266,12 +268,12 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: HARD WORK VIBRAM POLIURETAN 
+                                  ĐON: HARD WORK VIBRAM POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -285,12 +287,12 @@
                                 <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: HARD WORK VIBRAM POLIURETAN 
+                                  ĐON: HARD WORK VIBRAM POLIURETAN<br> 
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena: 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -304,11 +306,11 @@
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: HAMMER POLIURETAN DVOSTRUKE GUSTINE + POLIURETAN 
+                                  ĐON: HAMMER POLIURETAN DVOSTRUKE GUSTINE + POLIURETAN<br> 
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena: 6,604.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,604.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -322,11 +324,11 @@
                                 <h7 class="card-title fw-bold mt-3">MILITARY</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 7,180.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,180.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -340,11 +342,11 @@
                                 <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1 + P SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,547.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,547.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -358,11 +360,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO CI WR HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA/VIBRAM 
+                                  ĐON: POLIURETAN + GUMA/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 10,464.00din bez PDV-a</span>
+                                <span>Cena(VP): 10,464.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -376,11 +378,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO WR HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA/VIBRAM 
+                                  ĐON: POLIURETAN + GUMA/VIBRAM<br>
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 8,025.00din bez PDV-a</span>
+                                <span>Cena(VP): 8,025.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -394,11 +396,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 7,276.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,276.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -412,11 +414,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 7,008.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,008.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -430,11 +432,11 @@
                                 <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 8,678.00din bez PDV-a</span>
+                                <span>Cena(VP): 8,678.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -448,11 +450,11 @@
                                 <h7 class="card-title fw-bold mt-3">ANTHRACITE</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1 + P SRC <br>
-                                  ĐON: COMPACT MONO PU 
+                                  ĐON: COMPACT MONO PU<br> 
                                   NEMETALNA PLOČA,
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 4,934.00din bez PDV-a</span>
+                                <span>Cena(VP): 4,934.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -466,11 +468,11 @@
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
+                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 5,841.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,841.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -484,11 +486,11 @@
                                 <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
+                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 5,990.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,990.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -502,11 +504,11 @@
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
+                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 5,971.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,971.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -520,11 +522,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE 
+                                  ĐON: COMPACT PU/PU DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,124.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,124.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -538,11 +540,11 @@
                                 <h7 class="card-title fw-bold mt-3">TAMNO BEŽ</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
-                                  SOLE : 2022 RUBBERUMA+POLIURETAN 
+                                  SOLE : 2022 RUBBERUMA+POLIURETAN<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena: 5,049.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,049.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -556,11 +558,11 @@
                                 <h7 class="card-title fw-bold mt-3">TORBA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P <br>
-                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE 
+                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 5,088.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,088.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -574,11 +576,11 @@
                                 <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
-                                  ĐON: COMPACT POLIURETAN + POLIURETAN 
+                                  ĐON: COMPACT POLIURETAN + POLIURETAN<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena: 5,433.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,433.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -592,11 +594,11 @@
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 SRC <br>
-                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM 
+                                  ĐON: POLIURETAN + TERMOPLASTIČNI POLIURETAN/VIBRAM<br> 
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena: 7,392.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,392.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -610,11 +612,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P HRO HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA 
+                                  ĐON: POLIURETAN + GUMA<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena: 6,796.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,796.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -628,11 +630,11 @@
                                 <h7 class="card-title fw-bold mt-3">SIVA/LIME</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P HRO HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA 
+                                  ĐON: POLIURETAN + GUMA<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,950.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,950.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -646,11 +648,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC <br>
-                                  ĐON: POLIURETAN + GUMA
+                                  ĐON: POLIURETAN + GUMA<br>
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,969.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,969.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -664,11 +666,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC ESD(CLASS1) <br>
-                                  ĐON: POLIURETAN + GUMA + ESD 
+                                  ĐON: POLIURETAN + GUMA + ESD<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -682,11 +684,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI SRC ESD(CLASS1)<br>
-                                  ĐON: POLIURETAN + GUMA + ESD 
+                                  ĐON: POLIURETAN + GUMA + ESD<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 7,776.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,776.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -700,11 +702,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI CI WR SRC <br>
-                                  ĐON: RANGER VIBRAM ZAŠTITA 
+                                  ĐON: RANGER VIBRAM ZAŠTITA<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE
                                 </p>
-                                <span>Cena: 14,860.00din bez PDV-a</span>
+                                <span>Cena(VP): 14,860.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -718,11 +720,11 @@
                                 <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S3 HRO HI CI WR SRC <br>
-                                  ĐON: RANGER VIBRAM ZAŠTITA 
+                                  ĐON: RANGER VIBRAM ZAŠTITA<br> 
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 12,729.00din bez PDV-a</span>
+                                <span>Cena(VP): 12,729.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -736,11 +738,11 @@
                                 <h7 class="card-title fw-bold mt-3">SVETLO PLAVA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC <br>
-                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE 
+                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,566.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,566.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -754,11 +756,11 @@
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
                                   CAT: S1+P SRC ESD <br>
-                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE 
+                                  ĐON: POLIURETAN DVOSTRUKE GUSTINE<br> 
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena: 6,624.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,624.00din bez PDV-a</span>
                             </div>
                         </div>
                     </div>
@@ -1040,10 +1042,6 @@ footer .copyright {
     color: whitesmoke;
     font-size: 24px;
 }
-.button-style .button-image:focus{
-    rotate: 90;
-}
-
 table,tr,td{
     border: 2px solid whitesmoke;
     padding: 5px;
@@ -1056,5 +1054,8 @@ td{
 .sizeTable{
     margin-left: auto;
     margin-right: auto;
+}
+.protection{
+    font-size: 20px;
 }
 </style>

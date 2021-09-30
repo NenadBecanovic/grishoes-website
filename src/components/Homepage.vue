@@ -43,11 +43,11 @@
                         </div>
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <span>
-                                Grisport maintains the strictest standards of eco-sustainability
-                                when selecting raw materials. Furthermore, a photovoltaic system
-                                on the factory roof, which covers approximately 15,000 m2,
-                                supplies 70% of the power required for production (which is
-                                about 850,000 kW/h per year).
+                                Grisport održava najstrože standarde ekološke održivosti
+                                pri izboru sirovina. Štaviše, fotonaponski sistem
+                                na fabričkom krovu, koji se prostire na približno 15.000 m2,
+                                isporučuje 70% snage potrebne za proizvodnju (što je
+                                oko 850.000 kW/h godišnje).
                             </span>
                         </div>
                     </div>
@@ -57,10 +57,11 @@
                         </div>
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <span>
-                                Grisport has produced a Charter of Human Responsibilities, or
-                                Code of Ethics, to ensure that the company is committed to
-                                respecting the rights, work, and dignity of the people involved
-                                on all levels and in all areas of manufacturing our products.
+                                Italijanska kompanija od 1977. Grisport obuća potiče iz
+                                italijanskog dizajna, važnog lanca proizvodnje,
+                                pažnje na detalje i proizvodne tehnologije koja se
+                                ogleda u ponudi udobne i efikasne obuće sa
+                                originalnim stilom.
                             </span>
                         </div>
                     </div>
@@ -70,11 +71,10 @@
                         </div>
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <span>
-                                Italian company since 1977. Grisport footwears come from the
-                                Italian design, from an important manifacturing chain, from the
-                                attention to details and from a production technologythat in
-                                summary offer comfortable and performing footwear with an
-                                original style.
+                                Grisport je izradio Povelju o ljudskim odgovornostima, ili
+                                Etički kodeks, kako bi se osiguralo da je kompanija posvećena
+                                poštovanju prava, rada i dostojanstva uključenih ljudi
+                                na svim nivoima i u svim oblastima proizvodnje naših proizvoda.
                             </span>
                         </div>
                     </div>
@@ -84,9 +84,9 @@
                         </div>
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <span>
-                                Grisport has implemented an effective traceability system that
-                                enables us to trace back every step in the production process
-                                sowe always know which materials were used..
+                                Grisport je implementirao efikasan sistem sledljivosti koji
+                                omogućava da pratimo svaki korak u proizvodnom procesu,
+                                tako da uvek znamo koji su materijali korišćeni.
                             </span>
                         </div>
                     </div>
@@ -101,8 +101,7 @@
                         dizajn ove obuće koja se proizvodi u EU i poseduje sve neophodne
                         sertifikate što se tiče kvaliteta i bezbednosti, takođe izdate od
                         ovlašćene agencije za sertifikate MADE IN EU. Zamolili bi Vas da nam
-                        zakažete sastanak na kome bi vam prezentovali uzorke.U prilogu Vam
-                        dostavljamo elektronski katalog sa cenama i uslovima kupovine robe.
+                        zakažete sastanak na kome bi vam prezentovali uzorke.
                     </p>
                     <img src="../assets/homepage-description/banner.jpg" alt="Banner picture" class="banner ms-2"/>
                 </div>
