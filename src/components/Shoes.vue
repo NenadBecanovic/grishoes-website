@@ -82,14 +82,14 @@
                     <button type="button" class="btn btn-light shadow-none button-style" @click="showLabels">
                         <img v-if="!showLabel" src="../assets/arrow16.png" alt="Arrow" class="mb-2">
                         <img v-if="showLabel" src="../assets/arrow-down.png" class="mb-2" alt="Arrow">
-                        <span> Stepen zaštite HTZ obuće</span>
+                        <span> Stepen zaštite obuće</span>
                     </button>
                     <div v-if="showLabel" class="protection">
                         <h4>STEPEN ZAŠTITE HTZ OBUĆE</h4>
                             •   S1 - Pored osnovne zaštite nožnih prstiju pomoću zaštitne kape, S1 osigurava da obuća ima antistatičku zaštitu, otporna je na ulje i apsorbuje energiju u peti.<br>
                             •   S2 - Ima istu zaštitu kao i S1, plus dodatnu zaštitu koja sprečava prodor vode i absorciju vode u gornjem delu.<br>
                             •	S3 - Obuhvata iste nivoe zaštite kao i S2, plus zaštitu od probijanja oštrog predmeta odozdo pomoću zaštitnog lista u đonu.<br><br>
-                        <h4>SKRAĆENICE</h4>
+                        <h4>OZNAKE</h4>
                         A - Antistatične osobine<br>
                         E - Apsorber energije u prednjem delu<br>
                         P - Đon otporan na probijanje<br>
@@ -106,6 +106,8 @@
                         SRB - Protivkliznost đona na čeliku na kome se nalazi glikol<br>
                         SRC - Protivkliznost đona SRA+SRB<br>
                     </div>
+                    <br>
+                    <h3><b>SVI MODELI IMAJU GARANCIJU 2 GODINE, OSIM NA FIZIČKA OŠTEĆENJA.</b></h3>
                     <div class="article-container mt-2">
                         <div class="article-card d-flex flex-column">
                           <div class="card-img-top-container">
