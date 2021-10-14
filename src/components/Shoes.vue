@@ -107,8 +107,19 @@
                         SRC - Protivkliznost đona SRA+SRB<br>
                     </div>
                     <br>
-                    <h3><b>SVI MODELI IMAJU GARANCIJU 2 GODINE, OSIM NA FIZIČKA OŠTEĆENJA.</b></h3>
+                    <h3><b>SVI MODELI IMAJU GARANCIJU 2 GODINE, OSIM NA MEHANIČKA I FIZIČKA OŠTEĆENJA.</b></h3>
+                    <div class="shoe-categories justify-content-between">
+                        <button type="button" class="btn shadow-none shoes-type me-2" @click="showHTZShoes">
+                            <span v-if="!showMilitary"><u>HTZ obuća</u></span>
+                            <span v-if="showMilitary">HTZ obuća</span>
+                        </button>
+                        <button type="button" class="btn shadow-none shoes-type ms-2" @click="showMilitaryShoes">
+                            <span v-if="showMilitary"><u>Military obuća</u></span>
+                            <span v-if="!showMilitary">Military obuća</span>
+                        </button>
+                    </div>
                     <div class="article-container mt-2">
+                        <template v-if="!showMilitary">
                         <div class="article-card d-flex flex-column">
                           <div class="card-img-top-container">
                               <img class="card-img-top img-fluid" src="../assets/Shoes/image001.png" alt="Article image">
@@ -765,6 +776,748 @@
                                 <span>Cena(VP): 6,624.00din bez PDV-a</span>
                             </div>
                         </div>
+                        </template>
+                        <template v-if="showMilitary">
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military001.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11339C62KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">CAI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ.O2 HRO HI CI WR FO SRC 
+                                    </p>
+                                    <span>Cena(VP): 7,956.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military003.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11339D48E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 7,140.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military005.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11407D73KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 HRO HI CI WR FO SRC  
+                                    </p>
+                                    <span>Cena(VP): 8,833.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military007.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11455DV18G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">  
+                                    </p>
+                                    <span>Cena(VP): 8,792.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military009.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11473D38KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ.O2 HRO HI FO CI WR SRC  
+                                    </p>
+                                    <span>Cena(VP): 10,383.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military011.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11483M19KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. OBE WRU FO HRO HI CI WR SRC  
+                                    </p>
+                                    <span>Cena(VP): 9,016.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military013.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11501D1E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. OBE HRO HI FO SRC  
+                                    </p>
+                                    <span>Cena(VP): 8,445.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military015.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11637M13</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 8,078.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military017.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11637SV6</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA COYOTE</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 8,160.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military019.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">11953S11</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 8,384.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military021.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13223DV2G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 7,568.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military023.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13431D19KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAC MARRONE</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 HRO HI CI WR FO SRC 
+                                    </p>
+                                    <span>Cena(VP): 7,915.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military025.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13431D20KE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 HRO HI CI WR FO SRC
+                                    </p>
+                                    <span>Cena(VP): 7,915.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military027.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13801D3T</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 8,976.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military029.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13801S23</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                      
+                                    </p>
+                                    <span>Cena(VP): 8,058.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military031.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13815M3G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSR NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 8,894.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military033.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13817L49</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">LR9 BACK BLACK</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 10,016.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military035.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13817M48T</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
+                                    <p class="card-text text-wrap">  
+                                    </p>
+                                    <span>Cena(VP): 10,036.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military037.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13821M3Y</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 9,710.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military039.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13821S4</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
+                                    <p class="card-text text-wrap">  
+                                    </p>
+                                    <span>Cena(VP): 7,854.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military041.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13831M5</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 8,384.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military043.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13831S3</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military045.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13831S4</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SAP COYOTE</h7>
+                                    <p class="card-text text-wrap">  
+                                    </p>
+                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military047.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13833D2WT</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 10,852.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military049.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13841O1T</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">OID NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 9,996.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military051.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13931P5E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">PRB COLORE TRUE BLACK</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O1 FO SRC 
+                                    </p>
+                                    <span>Cena(VP): 6,793.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military053.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13933L100tE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">L4G NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 CI WR FO SRC
+                                    </p>
+                                    <span>Cena(VP): 9,098.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military055.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">14001C17G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">CAL NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 7,323.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military057.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">14003D50G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAS NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 7,119.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military059.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">14005o49G</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">OLI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 7,731.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military061.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">40424S1</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 5,548.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military063.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">40426S1</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 5,406.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military065.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">40428S68V</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 5,773.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military067.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">42003P248</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">PMA NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 6,566.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military069.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">42027P218V</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">PIU NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 7,099.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military071.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">42820S74E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SAC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 FO SRC ESD
+                                    </p>
+                                    <span>Cena(VP): 6,364.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military073.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">42824A108E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">ASP 136 NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O1 FO SRC ESD
+                                    </p>
+                                    <span>Cena(VP): 5,304.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military075.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7013E52E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">ELR 6 NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O1 FO HRO HI SRC
+                                    </p>
+                                    <span>Cena(VP): 6,120.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military077.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7019DV4t</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 9,730.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military079.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7039CD6tE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O3 FO HRO HI CI WR SRC
+                                    </p>
+                                    <span>Cena(VP): 13,810.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military081.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7039S5E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 FO HRO HI SRC
+                                    </p>
+                                    <span>Cena(VP): 12,464.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military083.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7041CD2WTE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. 7041 O3 FO HRO HI CI WR SRC
+                                    </p>
+                                    <span>Cena(VP): 11,995.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military085.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7055M5tE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MSC NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 FO HRO HI CI WR SRC
+                                    </p>
+                                    <span>Cena(VP): 8,812.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military087.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7055S6tE</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCY 813 MIELLE</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O2 FO HRO HI CI WR SRC 
+                                    </p>
+                                    <span>Cena(VP): 8,690.40din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military089.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7057M1EY</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MIS NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 11,628.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military091.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7057NV2Y</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">NAB GIAL</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 12,280.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military093.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">7105D1WT</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
+                                    <p class="card-text text-wrap"> 
+                                    </p>
+                                    <span>Cena(VP): 13,545.60din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military095.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">76836D3E</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    CALZ. O1 FO SRC 
+                                    </p>
+                                    <span>Cena(VP): 7,996.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military097.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">90120D3</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 6,670.80din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military099.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13847S1</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">SCA MIELLE</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 8,262.00din bez PDV-a</span>
+                                </div>
+                            </div>
+                            <div class="article-card d-flex flex-column">
+                                <div class="card-img-top-container">
+                                    <img class="card-img-top img-fluid" src="../assets/Shoes/military101.png" alt="Article image">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="card-title fw-bold mt-3">13847M2</h5>
+                                    </div>
+                                    <h7 class="card-title fw-bold mt-3">MIS NERO</h7>
+                                    <p class="card-text text-wrap">
+                                    </p>
+                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                </div>
+                            </div>
+                        </template>
                     </div>
                 </div>
             </div>
@@ -813,7 +1566,8 @@ export default {
   data: function(){
     return {
         showTable: false,
-        showLabel: false    
+        showLabel: false,
+        showMilitary: false    
     }
   },
   methods: {
@@ -834,6 +1588,12 @@ export default {
         }else{
             this.showLabel = true;
         }
+    },
+    showMilitaryShoes(){
+        this.showMilitary = true;
+    },
+    showHTZShoes(){
+        this.showMilitary = false;
     },
     showHomepage(){
         this.$router.push({name: 'Home'});
@@ -1000,12 +1760,6 @@ footer .copyright {
 .article-card .card-title{
     font-size: 20px;
 }
-/*
-.article-card .card-img-top{
-    object-fit: cover;
-    transition: .5s transform;
-}
-*/
 .article-card .img-fluid{
     height: 230px;
 }
@@ -1059,5 +1813,43 @@ td{
 }
 .protection{
     font-size: 20px;
+}
+.shoes-type{
+    background-color: #5c4209;
+    color: antiquewhite;
+    width: 44vw;
+    height: 15vw;
+    font-size: 36px;
+    border-radius: 15px;
+}
+.shoes-type:hover{
+    background-color: #74530b;
+}
+.shoe-categories {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 840px) {
+  .shoe-categories {
+    flex-direction: column !important;
+  }
+  .shoes-type{
+      width: 100%;
+      margin-bottom: 1rem;
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .shoe-categories {
+    flex-direction: column !important;
+  }
+  .shoes-type{
+      height: 20vw;
+  }
 }
 </style>
