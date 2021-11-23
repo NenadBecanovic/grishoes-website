@@ -126,7 +126,7 @@
                           </div>
                           <div class="card-body">
                               <div class="d-flex justify-content-between">
-                                  <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
+                                  <h5 class="card-title fw-bold mt-3">ASIAGO</h5>
                               </div>
                               <h7 class="card-title fw-bold mt-3">CRNA</h7>
                               <p class="card-text text-wrap">
@@ -145,7 +145,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
+                                    <h5 class="card-title fw-bold mt-3">CORTINA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -164,7 +164,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.17</h5>
+                                    <h5 class="card-title fw-bold mt-3">CORTINA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
@@ -183,7 +183,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.1</h5>
+                                    <h5 class="card-title fw-bold mt-3">ISCHIA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
@@ -201,7 +201,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.6</h5>
+                                    <h5 class="card-title fw-bold mt-3">ISCHIA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA/CRVENA</h7>
                                 <p class="card-text text-wrap">
@@ -219,7 +219,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.16</h5>
+                                    <h5 class="card-title fw-bold mt-3">STROMBOLI</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -238,7 +238,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.30</h5>
+                                    <h5 class="card-title fw-bold mt-3">PORDOI</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -257,7 +257,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.42</h5>
+                                    <h5 class="card-title fw-bold mt-3">PORDOI</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
@@ -276,7 +276,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.30</h5>
+                                    <h5 class="card-title fw-bold mt-3">MARMOLADA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -295,7 +295,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.42</h5>
+                                    <h5 class="card-title fw-bold mt-3">MARMOLADA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">LONTRA</h7>
                                 <p class="card-text text-wrap">
@@ -314,7 +314,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.12</h5>
+                                    <h5 class="card-title fw-bold mt-3">TRENTO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
@@ -332,7 +332,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.6</h5>
+                                    <h5 class="card-title fw-bold mt-3">ADRIA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">MILITARY</h7>
                                 <p class="card-text text-wrap">
@@ -350,7 +350,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.25</h5>
+                                    <h5 class="card-title fw-bold mt-3">MISANO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
@@ -368,7 +368,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.4</h5>
+                                    <h5 class="card-title fw-bold mt-3">VESUVIO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -386,7 +386,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.8</h5>
+                                    <h5 class="card-title fw-bold mt-3">VALSUGANA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -404,7 +404,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.26</h5>
+                                    <h5 class="card-title fw-bold mt-3">MARANELLO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -422,7 +422,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.26</h5>
+                                    <h5 class="card-title fw-bold mt-3">MUGELLO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -440,7 +440,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.1</h5>
+                                    <h5 class="card-title fw-bold mt-3">IMOLA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
@@ -458,7 +458,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.7</h5>
+                                    <h5 class="card-title fw-bold mt-3">CAPRI</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">ANTHRACITE</h7>
                                 <p class="card-text text-wrap">
@@ -476,7 +476,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">ALASKA VAR.7</h5>
+                                    <h5 class="card-title fw-bold mt-3">BASSANO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
@@ -494,7 +494,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.10</h5>
+                                    <h5 class="card-title fw-bold mt-3">BASSANO</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">NERO</h7>
                                 <p class="card-text text-wrap">
@@ -512,7 +512,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">ALASKA VAR.7</h5>
+                                    <h5 class="card-title fw-bold mt-3">MAROSTICA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
@@ -530,7 +530,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.10</h5>
+                                    <h5 class="card-title fw-bold mt-3">MAROSTICA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -548,7 +548,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.1</h5>
+                                    <h5 class="card-title fw-bold mt-3">CAPRERA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">TAMNO BEŽ</h7>
                                 <p class="card-text text-wrap">
@@ -566,7 +566,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.35</h5>
+                                    <h5 class="card-title fw-bold mt-3">ELBA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">TORBA</h7>
                                 <p class="card-text text-wrap">
@@ -584,7 +584,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">SCAMOSCIATO VAR.22</h5>
+                                    <h5 class="card-title fw-bold mt-3">MONZA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">TAMNO PLAVA</h7>
                                 <p class="card-text text-wrap">
@@ -602,7 +602,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.3</h5>
+                                    <h5 class="card-title fw-bold mt-3">GARDA</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">BRAON</h7>
                                 <p class="card-text text-wrap">
@@ -620,7 +620,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">ANDROID VAR.4</h5>
+                                    <h5 class="card-title fw-bold mt-3">WIND</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
@@ -638,7 +638,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">ELEMENT VAR.46</h5>
+                                    <h5 class="card-title fw-bold mt-3">ICEBERG</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">SIVA/LIME</h7>
                                 <p class="card-text text-wrap">
@@ -656,7 +656,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">POLY VAR.17</h5>
+                                    <h5 class="card-title fw-bold mt-3">BREEZE</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA/NARANDŽASTA</h7>
                                 <p class="card-text text-wrap">
@@ -674,7 +674,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">POLY VAR.12</h5>
+                                    <h5 class="card-title fw-bold mt-3">SPRINT</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
@@ -692,7 +692,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">POLY VAR.12</h5>
+                                    <h5 class="card-title fw-bold mt-3">RUSH</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA/BELA</h7>
                                 <p class="card-text text-wrap">
@@ -710,7 +710,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">FIORE VAR.1</h5>
+                                    <h5 class="card-title fw-bold mt-3">HERCULES</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
@@ -728,7 +728,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DAKAR VAR.6</h5>
+                                    <h5 class="card-title fw-bold mt-3">POSEIDON</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">SIVA</h7>
                                 <p class="card-text text-wrap">
@@ -746,7 +746,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DIGITEX VAR.24</h5>
+                                    <h5 class="card-title fw-bold mt-3">SPEED</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">SVETLO PLAVA</h7>
                                 <p class="card-text text-wrap">
@@ -764,7 +764,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="card-title fw-bold mt-3">DIGITEX VAR.17</h5>
+                                    <h5 class="card-title fw-bold mt-3">FAST</h5>
                                 </div>
                                 <h7 class="card-title fw-bold mt-3">CRNA</h7>
                                 <p class="card-text text-wrap">
