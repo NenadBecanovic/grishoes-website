@@ -136,7 +136,7 @@
                                 ČELIČNA KAPA ZA PRSTE
                                 POLIURETANSKI VRH  
                               </p>
-                              <span>Cena(VP): 6,374.00din bez PDV-a</span>
+                              <span>Cena(VP): 6,775.56din bez PDV-a</span>
                           </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -155,7 +155,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,087.08din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -174,7 +174,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,087.08din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -192,7 +192,7 @@
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 5,472.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,879.94din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -210,7 +210,7 @@
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 5,472.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,879.94din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -229,7 +229,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 9,273.00din bez PDV-a</span>
+                                <span>Cena(VP): 9,773.94din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -248,7 +248,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,068.61din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -267,7 +267,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 6,662.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,068.61din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -286,7 +286,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,457.01din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -305,7 +305,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,457.01din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -323,7 +323,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 6,604.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,911.85din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -341,7 +341,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,180.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,593.30din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -359,7 +359,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,547.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,931.32din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -377,7 +377,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 10,464.00din bez PDV-a</span>
+                                <span>Cena(VP): 10,942.14din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -395,7 +395,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 8,025.00din bez PDV-a</span>
+                                <span>Cena(VP): 8,508.39din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -413,7 +413,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,276.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,710.12din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -431,7 +431,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,008.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,437.54din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -449,7 +449,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 8,678.00din bez PDV-a</span>
+                                <span>Cena(VP): 9,150.90din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -467,7 +467,7 @@
                                   NEMETALNA PLOČA,
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 4,934.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,276.37din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -485,7 +485,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 5,841.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,094.11din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -503,7 +503,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 5,990.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,386.16din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -521,7 +521,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 5,971.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,347.22din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -539,7 +539,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,124.00din bez PDV-a</span>
+                                <span>Cena(VP): 6,541.92din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -557,7 +557,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 5,049.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,412.66din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -575,7 +575,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 5,088.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,451.60din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -593,7 +593,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 5,433.00din bez PDV-a</span>
+                                <span>Cena(VP): 5,782.59din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -611,7 +611,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 7,392.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,788.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -629,7 +629,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 6,796.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,223.37din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -647,7 +647,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,950.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,398.60din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -665,7 +665,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,969.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,379.13din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -683,7 +683,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,065.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,476.48din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -701,7 +701,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,776.00din bez PDV-a</span>
+                                <span>Cena(VP): 8,196.87din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -719,7 +719,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 14,860.00din bez PDV-a</span>
+                                <span>Cena(VP): 15,303.42din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -737,7 +737,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 12,729.00din bez PDV-a</span>
+                                <span>Cena(VP): 13,298.01din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -755,7 +755,7 @@
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,566.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,009.20din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -773,7 +773,25 @@
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,624.00din bez PDV-a</span>
+                                <span>Cena(VP): 7,067.61din bez PDV-a</span>
+                            </div>
+                        </div>
+                        <div class="article-card d-flex flex-column">
+                            <div class="card-img-top-container">
+                                <img class="card-img-top img-fluid" src="../assets/Shoes/image073.png" alt="Article image">
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title fw-bold mt-3">REBEL</h5>
+                                </div>
+                                <h7 class="card-title fw-bold mt-3">BRAON</h7>
+                                <p class="card-text text-wrap">
+                                  CAT: S3 SRC <br>
+                                  ĐON: COMPACT POLIURETAN<br> 
+                                  NEMETALNA PLOČA, 
+                                  ALUMINIJUMSKA KAPA ZA PRSTE 
+                                </p>
+                                <span>Cena(VP): 7,612.77din bez PDV-a</span>
                             </div>
                         </div>
                         </template>
