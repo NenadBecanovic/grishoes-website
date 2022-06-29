@@ -136,7 +136,7 @@
                                 ČELIČNA KAPA ZA PRSTE
                                 POLIURETANSKI VRH  
                               </p>
-                              <span>Cena(VP): 6,775.56din bez PDV-a</span>
+                              <span>Cena(VP): 9,600.00din bez PDV-a</span>
                           </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -155,7 +155,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,087.08din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -174,7 +174,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,087.08din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -210,7 +210,7 @@
                                   ČELIČNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 5,879.94din bez PDV-a</span>
+                                <span>Cena(VP): 7,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -229,7 +229,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 9,773.94din bez PDV-a</span>
+                                <span>Cena(VP): 13,100.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -248,7 +248,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,068.61din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -267,7 +267,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,068.61din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -286,7 +286,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,457.01din bez PDV-a</span>
+                                <span>Cena(VP): 10,000.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -305,7 +305,7 @@
                                   ČELIČNA KAPA ZA PRSTE
                                   POLIURETANSKI VRH  
                                 </p>
-                                <span>Cena(VP): 7,457.01din bez PDV-a</span>
+                                <span>Cena(VP): 10,000.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -323,7 +323,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 6,911.85din bez PDV-a</span>
+                                <span>Cena(VP): 9,600.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -341,7 +341,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,593.30din bez PDV-a</span>
+                                <span>Cena(VP): 10,000.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -359,7 +359,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,931.32din bez PDV-a</span>
+                                <span>Cena(VP): 9,600.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -377,7 +377,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 10,942.14din bez PDV-a</span>
+                                <span>Cena(VP): 14,600.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -395,7 +395,7 @@
                                   NEMETALNA PLOČA, 
                                   POLIMERNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 8,508.39din bez PDV-a</span>
+                                <span>Cena(VP): 11,300.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -413,7 +413,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,710.12din bez PDV-a</span>
+                                <span>Cena(VP): 10,300.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -431,7 +431,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,437.54din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -449,7 +449,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 9,150.90din bez PDV-a</span>
+                                <span>Cena(VP): 12,200.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -467,7 +467,7 @@
                                   NEMETALNA PLOČA,
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 5,276.37din bez PDV-a</span>
+                                <span>Cena(VP): 7,200.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -485,7 +485,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 6,094.11din bez PDV-a</span>
+                                <span>Cena(VP): 8,400.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -503,7 +503,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,386.16din bez PDV-a</span>
+                                <span>Cena(VP): 8,700.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -521,7 +521,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,347.22din bez PDV-a</span>
+                                <span>Cena(VP): 8,700.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -539,7 +539,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 6,541.92din bez PDV-a</span>
+                                <span>Cena(VP): 8,800.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -557,7 +557,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 5,412.66din bez PDV-a</span>
+                                <span>Cena(VP): 7,500.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -575,7 +575,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 5,451.60din bez PDV-a</span>
+                                <span>Cena(VP): 7,500.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -593,7 +593,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 5,782.59din bez PDV-a</span>
+                                <span>Cena(VP): 7,600.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -611,7 +611,7 @@
                                   NEMETALNA PLOČA, 
                                   ČELIČNA KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 7,788.00din bez PDV-a</span>
+                                <span>Cena(VP): 10,300.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -629,7 +629,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE  
                                 </p>
-                                <span>Cena(VP): 7,223.37din bez PDV-a</span>
+                                <span>Cena(VP): 9,700.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -647,7 +647,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,398.60din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -665,7 +665,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,379.13din bez PDV-a</span>
+                                <span>Cena(VP): 9,900.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -683,7 +683,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,476.48din bez PDV-a</span>
+                                <span>Cena(VP): 8,100.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -701,7 +701,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 8,196.87din bez PDV-a</span>
+                                <span>Cena(VP): 9,000.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -719,7 +719,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE
                                 </p>
-                                <span>Cena(VP): 15,303.42din bez PDV-a</span>
+                                <span>Cena(VP): 16,500.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -737,7 +737,7 @@
                                   NEMETALNA PLOČA, 
                                   FAJBERGLAS KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 13,298.01din bez PDV-a</span>
+                                <span>Cena(VP): 14,300.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -755,7 +755,7 @@
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,009.20din bez PDV-a</span>
+                                <span>Cena(VP): 7,700.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -773,7 +773,7 @@
                                   NEMETALNA PLOČA, 
                                   ALUMINIJUMSKA KAPA ZA PRSTE 
                                 </p>
-                                <span>Cena(VP): 7,067.61din bez PDV-a</span>
+                                <span>Cena(VP): 7,700.00din bez PDV-a</span>
                             </div>
                         </div>
                         <div class="article-card d-flex flex-column">
@@ -808,7 +808,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ.O2 HRO HI CI WR FO SRC 
                                     </p>
-                                    <span>Cena(VP): 7,956.00din bez PDV-a</span>
+                                    <span>Cena(VP): 10,850.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -823,7 +823,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 7,140.00din bez PDV-a</span>
+                                    <span>Cena(VP): 9,760.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -838,7 +838,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 HRO HI CI WR FO SRC  
                                     </p>
-                                    <span>Cena(VP): 8,833.20din bez PDV-a</span>
+                                    <span>Cena(VP): 12,050.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -852,7 +852,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
                                     <p class="card-text text-wrap">  
                                     </p>
-                                    <span>Cena(VP): 8,792.20din bez PDV-a</span>
+                                    <span>Cena(VP): 12,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -867,7 +867,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ.O2 HRO HI FO CI WR SRC  
                                     </p>
-                                    <span>Cena(VP): 10,383.60din bez PDV-a</span>
+                                    <span>Cena(VP): 14,200.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -882,7 +882,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. OBE WRU FO HRO HI CI WR SRC  
                                     </p>
-                                    <span>Cena(VP): 9,016.00din bez PDV-a</span>
+                                    <span>Cena(VP): 12,300.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -897,7 +897,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. OBE HRO HI FO SRC  
                                     </p>
-                                    <span>Cena(VP): 8,445.60din bez PDV-a</span>
+                                    <span>Cena(VP): 11,550.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -912,7 +912,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 8,078.40din bez PDV-a</span>
+                                    <span>Cena(VP): 11,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -927,7 +927,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 8,160.00din bez PDV-a</span>
+                                    <span>Cena(VP): 11,150.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -942,7 +942,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 8,384.40din bez PDV-a</span>
+                                    <span>Cena(VP): 11,500.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -957,7 +957,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 7,568.40din bez PDV-a</span>
+                                    <span>Cena(VP): 10,400.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -972,7 +972,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 HRO HI CI WR FO SRC 
                                     </p>
-                                    <span>Cena(VP): 7,915.20din bez PDV-a</span>
+                                    <span>Cena(VP): 10,800.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -987,7 +987,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 HRO HI CI WR FO SRC
                                     </p>
-                                    <span>Cena(VP): 7,915.20din bez PDV-a</span>
+                                    <span>Cena(VP): 10,800.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1002,7 +1002,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 8,976.00din bez PDV-a</span>
+                                    <span>Cena(VP): 12,250.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1017,7 +1017,7 @@
                                     <p class="card-text text-wrap">
                                       
                                     </p>
-                                    <span>Cena(VP): 8,058.00din bez PDV-a</span>
+                                    <span>Cena(VP): 11,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1031,7 +1031,7 @@
                                     <h7 class="card-title fw-bold mt-3">MSR NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 8,894.40din bez PDV-a</span>
+                                    <span>Cena(VP): 12,150.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1045,7 +1045,7 @@
                                     <h7 class="card-title fw-bold mt-3">LR9 BACK BLACK</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 10,016.40din bez PDV-a</span>
+                                    <span>Cena(VP): 13,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1059,7 +1059,7 @@
                                     <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
                                     <p class="card-text text-wrap">  
                                     </p>
-                                    <span>Cena(VP): 10,036.80din bez PDV-a</span>
+                                    <span>Cena(VP): 13,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1073,7 +1073,7 @@
                                     <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 9,710.40din bez PDV-a</span>
+                                    <span>Cena(VP): 13,250.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1087,7 +1087,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
                                     <p class="card-text text-wrap">  
                                     </p>
-                                    <span>Cena(VP): 7,854.00din bez PDV-a</span>
+                                    <span>Cena(VP): 10,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1101,7 +1101,7 @@
                                     <h7 class="card-title fw-bold mt-3">MSI NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 8,384.40din bez PDV-a</span>
+                                    <span>Cena(VP): 11,500.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1115,7 +1115,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA 1284 DESERTO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                    <span>Cena(VP): 11,200.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1129,7 +1129,7 @@
                                     <h7 class="card-title fw-bold mt-3">SAP COYOTE</h7>
                                     <p class="card-text text-wrap">  
                                     </p>
-                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                    <span>Cena(VP): 11,200.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1143,7 +1143,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 10,852.80din bez PDV-a</span>
+                                    <span>Cena(VP): 14,800.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1157,7 +1157,7 @@
                                     <h7 class="card-title fw-bold mt-3">OID NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 9,996.00din bez PDV-a</span>
+                                    <span>Cena(VP): 13,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1172,7 +1172,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O1 FO SRC 
                                     </p>
-                                    <span>Cena(VP): 6,793.20din bez PDV-a</span>
+                                    <span>Cena(VP): 9,300.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1187,7 +1187,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 CI WR FO SRC
                                     </p>
-                                    <span>Cena(VP): 9,098.40din bez PDV-a</span>
+                                    <span>Cena(VP): 12,400.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1201,7 +1201,7 @@
                                     <h7 class="card-title fw-bold mt-3">CAL NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 7,323.60din bez PDV-a</span>
+                                    <span>Cena(VP): 10,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1215,7 +1215,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAS NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 7,119.60din bez PDV-a</span>
+                                    <span>Cena(VP): 9,800.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1229,7 +1229,7 @@
                                     <h7 class="card-title fw-bold mt-3">OLI NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 7,731.60din bez PDV-a</span>
+                                    <span>Cena(VP): 10,600.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1243,7 +1243,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 5,548.80din bez PDV-a</span>
+                                    <span>Cena(VP): 9,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1257,7 +1257,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 5,406.00din bez PDV-a</span>
+                                    <span>Cena(VP): 9,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1271,7 +1271,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA DESERTO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 5,773.20din bez PDV-a</span>
+                                    <span>Cena(VP): 9,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1285,7 +1285,7 @@
                                     <h7 class="card-title fw-bold mt-3">PMA NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 6,566.40din bez PDV-a</span>
+                                    <span>Cena(VP): 9,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1299,7 +1299,7 @@
                                     <h7 class="card-title fw-bold mt-3">PIU NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 7,099.20din bez PDV-a</span>
+                                    <span>Cena(VP): 9,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1314,7 +1314,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 FO SRC ESD
                                     </p>
-                                    <span>Cena(VP): 6,364.80din bez PDV-a</span>
+                                    <span>Cena(VP): 8,700.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1329,7 +1329,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O1 FO SRC ESD
                                     </p>
-                                    <span>Cena(VP): 5,304.00din bez PDV-a</span>
+                                    <span>Cena(VP): 7,220.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1344,7 +1344,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O1 FO HRO HI SRC
                                     </p>
-                                    <span>Cena(VP): 6,120.00din bez PDV-a</span>
+                                    <span>Cena(VP): 8,400.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1358,7 +1358,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 9,730.80din bez PDV-a</span>
+                                    <span>Cena(VP): 13,300.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1373,7 +1373,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O3 FO HRO HI CI WR SRC
                                     </p>
-                                    <span>Cena(VP): 13,810.80din bez PDV-a</span>
+                                    <span>Cena(VP): 19,900.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1388,7 +1388,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 FO HRO HI SRC
                                     </p>
-                                    <span>Cena(VP): 12,464.40din bez PDV-a</span>
+                                    <span>Cena(VP): 17,000.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1403,7 +1403,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. 7041 O3 FO HRO HI CI WR SRC
                                     </p>
-                                    <span>Cena(VP): 11,995.20din bez PDV-a</span>
+                                    <span>Cena(VP): 16,400.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1418,7 +1418,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 FO HRO HI CI WR SRC
                                     </p>
-                                    <span>Cena(VP): 8,812.80din bez PDV-a</span>
+                                    <span>Cena(VP): 12,020.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1433,7 +1433,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O2 FO HRO HI CI WR SRC 
                                     </p>
-                                    <span>Cena(VP): 8,690.40din bez PDV-a</span>
+                                    <span>Cena(VP): 11,900.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1447,7 +1447,7 @@
                                     <h7 class="card-title fw-bold mt-3">MIS NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 11,628.00din bez PDV-a</span>
+                                    <span>Cena(VP): 15,900.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1461,7 +1461,7 @@
                                     <h7 class="card-title fw-bold mt-3">NAB GIAL</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 12,280.80din bez PDV-a</span>
+                                    <span>Cena(VP): 16,800.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1475,7 +1475,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAI NERO</h7>
                                     <p class="card-text text-wrap"> 
                                     </p>
-                                    <span>Cena(VP): 13,545.60din bez PDV-a</span>
+                                    <span>Cena(VP): 18,500.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1490,7 +1490,7 @@
                                     <p class="card-text text-wrap">
                                     CALZ. O1 FO SRC 
                                     </p>
-                                    <span>Cena(VP): 7,996.80din bez PDV-a</span>
+                                    <span>Cena(VP): 10,900.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1504,7 +1504,7 @@
                                     <h7 class="card-title fw-bold mt-3">DAK NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 6,670.80din bez PDV-a</span>
+                                    <span>Cena(VP): 9,100.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1518,7 +1518,7 @@
                                     <h7 class="card-title fw-bold mt-3">SCA MIELLE</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 8,262.00din bez PDV-a</span>
+                                    <span>Cena(VP): 11,350.00din bez PDV-a</span>
                                 </div>
                             </div>
                             <div class="article-card d-flex flex-column">
@@ -1532,7 +1532,7 @@
                                     <h7 class="card-title fw-bold mt-3">MIS NERO</h7>
                                     <p class="card-text text-wrap">
                                     </p>
-                                    <span>Cena(VP): 8,221.20din bez PDV-a</span>
+                                    <span>Cena(VP): 11,300.00din bez PDV-a</span>
                                 </div>
                             </div>
                         </template>
