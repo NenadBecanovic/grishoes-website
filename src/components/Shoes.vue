@@ -1548,11 +1548,6 @@
                         <span class="mb-2 mt-2"> Bojan Bajagić </span>
                         <span> Tel: 063-261-381 </span>
                     </div>
-                    <div class="d-flex flex-column ms-5">
-                        <div class="basic-title">Menadžer prodaje:</div>
-                        <span class="mb-2 mt-2"> Aleksa Boškić </span>
-                        <span> Tel: 062-127-41-12 </span>
-                    </div>
                     <div class="d-flex flex-column">
                         <div class="basic-title">E-mail: grishoeskv@gmail.com</div>
                         <span class="mb-2 mt-2"> GRISHOES d.o.o </span>
@@ -1565,9 +1560,6 @@
                         <div class="basic-title">Vlasnik:</div>
                         <span class="mb-2 mt-2"> Bojan Bajagić </span>
                         <span> Tel: 063-261-381 </span>
-                        <div class="basic-title mt-2">Menadžer prodaje:</div>
-                        <span class="mb-2 mt-2"> Aleksa Boškić </span>
-                        <span> Tel: 062-127-41-12 </span>
                         <div class="basic-title mt-2">E-mail: grishoeskv@gmail.com</div>
                 </section>
             </div>
