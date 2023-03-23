@@ -1546,7 +1546,7 @@
                     <div class="d-flex flex-column text">
                         <div class="basic-title">Vlasnik:</div>
                         <span class="mb-2 mt-2"> Bojan Bajagić </span>
-                        <span> Tel: 063-261-381 </span>
+                        <span> Tel: 063-261-831 </span>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="basic-title">E-mail: grishoeskv@gmail.com</div>
@@ -1559,7 +1559,7 @@
                 <section class="footer-small-info d-flex flex-column mb-4">
                         <div class="basic-title">Vlasnik:</div>
                         <span class="mb-2 mt-2"> Bojan Bajagić </span>
-                        <span> Tel: 063-261-381 </span>
+                        <span> Tel: 063-261-831 </span>
                         <div class="basic-title mt-2">E-mail: grishoeskv@gmail.com</div>
                 </section>
             </div>
